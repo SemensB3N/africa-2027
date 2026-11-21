@@ -1,0 +1,126 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#222b23">
+  <meta name="description" content="Два поста для клиентского чата и обоснование текстов экспедиции NEVEREND «Инстинкт долголетия».">
+  <title>Посты и обоснование | NEVEREND</title>
+  <link rel="stylesheet" href="fonts.css">
+  <link rel="stylesheet" href="style.css">
+  <style>
+    .posts-page { background: #f4f1e9; color: #222820; }
+    .posts-page .posts-top { background: #222b23; color: #f8f5ed; }
+    .posts-page .posts-wrap { width: min(100% - 11vw, 1250px); margin-inline: auto; }
+    .posts-page .posts-nav { min-height: 90px; display: flex; align-items: center; justify-content: space-between; gap: 24px; border-bottom: 1px solid #ffffff38; }
+    .posts-page .posts-logo { color: #fff; font-family: var(--sans); font-size: 20px; font-weight: 700; letter-spacing: .13em; text-decoration: none; line-height: 1; }
+    .posts-page .posts-logo span { color: #d59c75; }
+    .posts-page .posts-back { color: inherit; font-size: 14px; font-weight: 600; text-decoration: none; padding: 8px 0; border-bottom: 1px solid currentColor; }
+    .posts-page .posts-back:hover { color: #e6b18a; }
+    .posts-page .posts-hero { padding: 100px 0 110px; max-width: 840px; }
+    .posts-page .posts-kicker { font: 700 13px/1.4 var(--sans); letter-spacing: .12em; text-transform: uppercase; color: #d2a488; margin: 0 0 26px; }
+    .posts-page .posts-title { font: 400 clamp(48px, 7vw, 88px)/1.07 var(--serif); letter-spacing: -.035em; margin: 0 0 28px; }
+    .posts-page .posts-intro { max-width: 590px; color: #e7e6de; font: 400 18px/1.75 var(--sans); margin: 0; }
+    .posts-page .posts-content { padding: 100px 0 120px; }
+    .posts-page .posts-grid { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); gap: clamp(30px, 6vw, 90px); }
+    .posts-page .posts-card { min-width: 0; border-top: 1px solid #9caa9b; padding-top: 28px; }
+    .posts-page .posts-label { color: #9d5d3e; font: 700 13px/1.4 var(--sans); letter-spacing: .1em; text-transform: uppercase; margin-bottom: 20px; }
+    .posts-page .posts-card h2 { font: 400 clamp(32px, 3.5vw, 46px)/1.12 var(--serif); letter-spacing: -.025em; margin: 0 0 25px; }
+    .posts-page .posts-text { font: 400 17px/1.85 var(--sans); color: #39443b; }
+    .posts-page .posts-text p { margin: 0 0 20px; }
+    .posts-page .posts-text p:last-child { margin-bottom: 0; }
+    .posts-page .posts-text .posts-date { font-size: 15px; font-weight: 600; color: #786452; }
+    .posts-page .posts-why { margin-top: 125px; padding-top: 50px; border-top: 1px solid #aeb9ab; display: grid; grid-template-columns: minmax(0, .95fr) minmax(0, 1.4fr); gap: clamp(36px, 8vw, 120px); }
+    .posts-page .posts-why h2 { font: 400 clamp(39px, 5vw, 64px)/1.1 var(--serif); letter-spacing: -.035em; margin: 0; }
+    .posts-page .posts-reason { padding: 0 0 25px; margin: 0 0 25px; border-bottom: 1px solid #d2d1c6; }
+    .posts-page .posts-reason:last-child { border: 0; padding: 0; margin: 0; }
+    .posts-page .posts-reason h3 { font: 600 17px/1.5 var(--sans); letter-spacing: 0; margin: 0 0 10px; color: #222b23; }
+    .posts-page .posts-reason p { font: 400 16px/1.85 var(--sans); margin: 0 0 13px; color: #515c51; }
+    .posts-page .posts-reason p:last-child { margin-bottom: 0; }
+    .posts-page .posts-footer { background: #1a211b; color: #e9e9e1; }
+    .posts-page .posts-footer-inner { display: flex; align-items: center; justify-content: space-between; gap: 28px; min-height: 104px; }
+    .posts-page .posts-footer p { margin: 0; font-size: 14px; color: #bdc5b8; }
+    @media (max-width: 700px) {
+      .posts-page .posts-wrap { width: calc(100% - 40px); }
+      .posts-page .posts-nav { min-height: 74px; }
+      .posts-page .posts-logo { font-size: 17px; }
+      .posts-page .posts-back { font-size: 13px; }
+      .posts-page .posts-hero { padding: 72px 0 78px; }
+      .posts-page .posts-intro { font-size: 16px; }
+      .posts-page .posts-content { padding: 72px 0 84px; }
+      .posts-page .posts-grid { grid-template-columns: 1fr; gap: 65px; }
+      .posts-page .posts-text { font-size: 16px; }
+      .posts-page .posts-why { margin-top: 95px; padding-top: 38px; grid-template-columns: 1fr; gap: 35px; }
+      .posts-page .posts-footer-inner { flex-wrap: wrap; justify-content: space-between; padding: 30px 0; }
+      .posts-page .posts-footer p { width: 100%; order: 3; }
+    }
+  </style>
+</head>
+<body class="posts-page">
+  <header class="posts-top">
+    <nav class="posts-nav posts-wrap" aria-label="Навигация">
+      <a class="posts-logo" href="index.html" aria-label="NEVEREND — на главную">NEVEREND<span>.</span></a>
+      <a class="posts-back" href="index.html">Вернуться к путешествию</a>
+    </nav>
+    <div class="posts-hero posts-wrap">
+      <p class="posts-kicker">Инстинкт долголетия · Африка 2027</p>
+      <h1 class="posts-title">Два поста для чата</h1>
+      <p class="posts-intro">Приглашения для тех, кто уже путешествовал с нами, и история решений, которые стоят за текстами экспедиции.</p>
+    </div>
+  </header>
+
+  <main class="posts-content posts-wrap">
+    <section class="posts-grid" aria-label="Варианты поста">
+      <article class="posts-card">
+        <p class="posts-label">Для клиентского чата</p>
+        <h2>Основной вариант</h2>
+        <div class="posts-text">
+          <p>Друзья, в октябре 2027-го идём по следам жизни — вдоль берегов Анголы, Намибии и ЮАР. В пустыне увидим уникальную вельвичию, которая может жить больше тысячи лет, а на борту поговорим о том, как прожить яркую жизнь и оставить свой след в истории.</p>
+          <p>Африка — наш первый круиз, целиком посвящённый счастью и активному долголетию. Программу готовим вместе с Филиппом Гузенюком.</p>
+          <p class="posts-date">18–29 октября · Луанда — Кейптаун</p>
+          <p>Напишите менеджеру «Африка» — расскажем подробности.</p>
+        </div>
+      </article>
+      <article class="posts-card">
+        <p class="posts-label">Для клиентского чата</p>
+        <h2>Альтернативный вариант</h2>
+        <div class="posts-text">
+          <p>Друзья, помните, как здорово встречаться всем вместе за ужином? В этот раз накроем стол под звёздами намибийской пустыни, а после устроим уникальную вечеринку Белой зебры.</p>
+          <p>Это один из вечеров нашей экспедиции «Инстинкт долголетия». С 18 по 29 октября 2027-го идём на лайнере NEVEREND из Луанды в Кейптаун и вместе с экспертами исследуем, что делает жизнь долгой и счастливой.</p>
+          <p>Поставьте сердечко, если хотите получить программу.</p>
+        </div>
+      </article>
+    </section>
+
+    <section class="posts-why" aria-labelledby="posts-why-title">
+      <div>
+        <p class="posts-kicker">Обоснование</p>
+        <h2 id="posts-why-title">Почему тексты устроены так</h2>
+      </div>
+      <div>
+        <article class="posts-reason">
+          <h3>Большая идея</h3>
+          <p>Образ «по следам жизни» связывает наблюдения в Африке с личным вопросом о долголетии. Для кого-то эти 12 дней станут возможностью проверить свои силы и открыть новые грани себя. Кто-то захочет вспомнить моменты своей жизни и, возможно, найти истинную цель.</p>
+          <p>Уникальность этой поездки — первая для NEVEREND экспедиция, целиком посвящённая актуальной теме, и программа с Филиппом Гузенюком на лайнере для сообщества.</p>
+        </article>
+        <article class="posts-reason">
+          <h3>Страница</h3>
+          <p>Первый экран сразу сообщает маршрут, даты и цену и предлагает связаться с менеджером. Затем идея и впечатления помогают представить путешествие, программа показывает его ритм, а условия и тарифы отвечают на вопросы перед заявкой.</p>
+        </article>
+        <article class="posts-reason">
+          <h3>Чат</h3>
+          <p>Первый пост раскрывает тему через вельвичию и приглашает написать менеджеру. Второй напоминает об общем опыте путешествий и начинается с ужина в пустыне. Ответить на него можно реакцией.</p>
+        </article>
+      </div>
+    </section>
+  </main>
+
+  <footer class="posts-footer">
+    <div class="posts-footer-inner posts-wrap">
+      <a class="posts-logo" href="index.html" aria-label="NEVEREND — на главную">NEVEREND<span>.</span></a>
+      <p>Экспедиционный круиз · Африка 2027</p>
+      <a class="posts-back" href="index.html">Вернуться к путешествию</a>
+    </div>
+  </footer>
+</body>
+</html>
